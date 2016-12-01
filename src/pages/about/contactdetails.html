@@ -1,0 +1,43 @@
+<ion-header>
+<ion-navbar >
+  <ion-title>
+    详细资料
+  </ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-card>
+<ion-item>
+  <ion-avatar item-left>
+    <img src="assets/images/{{item.id}}.jpg">
+  </ion-avatar>
+  <h2 padding>{{item.name}}</h2>
+
+</ion-item>
+
+  <ion-list>
+    <button ion-button clear block>
+      <ion-icon name="call" item-left></ion-icon>
+      <span ion-item >{{item.phone}}</span>
+    </button>
+
+
+    <button ion-button clear block>
+      <ion-icon name="person" item-left></ion-icon>
+      <span ion-item >{{item.tag}}</span>
+    </button>
+
+    <button ion-button block clear>
+      <ion-icon name="pin" item-left></ion-icon>
+      <span ion-item >{{item.location}}</span>
+    </button>
+
+
+
+  </ion-list>
+</ion-card>
+
+<button ion-button full  color="secondary" (click)="callNumber()">拨号</button>
+</ion-content>

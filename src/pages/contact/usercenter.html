@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar >
+        <ion-title>
+            我
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="usercenter">
+
+<ion-avatar class="alignCenter" >
+    <img src="{{user.headface}}" (click)="updateHeadface()"/>
+</ion-avatar>
+
+<button ion-button class="button" block (click)="loginOut()">
+  注销
+</button>
+</ion-content>
