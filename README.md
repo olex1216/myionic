@@ -4,21 +4,11 @@
 ***
 ##功能模块：
 
-<<<<<<< HEAD
+
 功能模块：
 
 1. Image-Picker : 照片上传发布
 
-2. Local-Notification: 本地通知推送
-
-3. Jpush :  极光推送
-
-4. Geolocation :  地理
-
-...持续完善中...
-=======
-1. Image-Picker : 照片上传发布
->>>>>>> 66f8747dbaa9fd4eaf98c012838bd3cb4fcfe878
 
 2. Local-Notification: 本地通知推送
 
