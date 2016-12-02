@@ -13,9 +13,7 @@ import { UserCenter } from '../contact/usercenter';
 export class TabsPage {
   // this tells the tabs component which Pages
   // should be each tab's root Page
-  tab1Root: any = HomePage;
-  tab2Root: any = AboutPage;
-  tab3Root: any = UserCenter;
+
 
   // tab3Root: any = localStorage.getItem("logined")
   // == "true" ? UserCenter : ContactPage;
@@ -30,6 +28,11 @@ export class TabsPage {
 
     }
    }
+
+   tab1Root: any = HomePage;
+   tab2Root: any = AboutPage;
+   tab3Root: any = UserCenter;
+
   constructor() {
 
   }
