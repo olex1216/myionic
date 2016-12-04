@@ -16,7 +16,36 @@
 </ion-header>
 <!-- 朋友圈 -->
 
-<ion-content padding>
+<ion-content >
+
+<ion-card >
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/images/3.jpg">
+    </ion-avatar>
+    <h2 padding-top="2px">拉莫斯</h2>
+    <p>来自华为 Mate 9</p>
+  </ion-item>
+  <ion-slides [options]="mySlideOptions">
+    <ion-slide>
+      <img src="assets/images/slide1.jpeg">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/images/slide2.jpeg">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/images/slide3.jpeg">
+    </ion-slide>
+  </ion-slides>
+  <ion-card-content>
+      <p>彩云之南！我来啦！</p>
+    </ion-card-content>
+    <ion-item>
+    <button ion-button clear primary item-left><ion-icon name="thumbs-up"></ion-icon><div>113 赞</div></button>
+    <button ion-button clear primary item-left><ion-icon name="text"></ion-icon>  <div>  7评论</div></button>
+    <ion-note item-right>1小时前</ion-note>
+    </ion-item>
+</ion-card>
 
 <ion-card >
   <ion-item>
@@ -65,7 +94,7 @@
     <ion-avatar item-left>
       <img src="assets/images/1.jpg">
     </ion-avatar>
-    <h2 padding>麦兜</h2>
+    <h2 padding-top="2px">麦兜</h2>
     <p>来自iPhone 7</p>
   </ion-item>
     <img src="assets/images/c1.jpg">
@@ -84,7 +113,7 @@
     <ion-avatar item-left>
       <img src="assets/images/3.jpg">
     </ion-avatar>
-    <h2>拉莫斯</h2>
+    <h2 padding-top="2px">拉莫斯</h2>
     <p>来自iPhone 7</p>
   </ion-item>
     <img src="assets/images/c2.jpg">

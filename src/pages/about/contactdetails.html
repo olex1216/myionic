@@ -1,9 +1,16 @@
 <ion-header>
+
 <ion-navbar >
   <ion-title>
     详细资料
   </ion-title>
+  <ion-buttons end>
+    <button ion-button icon-only (click)="editMore()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
 </ion-navbar>
+
 </ion-header>
 
 <ion-content padding>
@@ -39,5 +46,7 @@
   </ion-list>
 </ion-card>
 
-<button ion-button full  color="secondary" (click)="callNumber()">拨号</button>
+  <button ion-button full  color="secondary" (click)="callNumber()">
+  拨号
+  </button>
 </ion-content>

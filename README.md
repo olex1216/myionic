@@ -14,7 +14,7 @@
 
 3. Jpush :  极光推送
 
-4. Geolocation :  地理
+4. Geolocation :  地理位置
 
 ...持续完善中...
 ***

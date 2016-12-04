@@ -4,7 +4,7 @@ import { ContactPage } from './contact';
 
 import {NavController,LoadingController,
   AlertController,ToastController,ModalController,ViewController,NavParams} from 'ionic-angular';
-// import { ImagePicker } from 'ionic-native';
+import { ImagePicker } from 'ionic-native';
 
 @Component({
   selector: 'page-usercenter',
@@ -58,13 +58,13 @@ export class UserCenter{
 
     updateHeadface(){
       console.log("update headface");
-      // ImagePicker.getPictures().then((results) => {
-      //   for (var i = 0; i < results.length; i++) {
-      //      this.user.headface=results[i];
-      //      //将图片上传到服务器..
+      ImagePicker.getPictures({maximumImagesCount: 1}).then((results) => {
+        for (var i = 0; i < results.length; i++) {
+           this.user.headface=results[i];
+           //将图片上传到服务器..
 
-      //   }
-      // }, (err) => { console.log("Error getting image")});
+        }
+      }, (err) => { console.log("Error getting image")});
 
     }
 
