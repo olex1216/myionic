@@ -9,10 +9,10 @@
 
 1. Image-Picker : 照片上传发布
 
+2.zymedia ： 视频播放
 
-2. Local-Notification: 本地通知推送
+3. Local-Notification: 本地通知推送
 
-3. Jpush :  极光推送
 
 4. Geolocation :  地理位置
 
