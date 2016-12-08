@@ -1,0 +1,6 @@
+{
+  "name": "Myionic",
+  "tagline": "ionic2-demo    朋友圈app",
+  "body": "# myionic\r\n\r\n此项目使用ionic2框架\r\n***\r\n##功能模块：\r\n\r\n\r\n功能模块：\r\n\r\n1. Image-Picker : 照片上传发布\r\n\r\n2. zymedia ： 视频播放\r\n\r\n3. Local-Notification: 本地通知推送\r\n\r\n4. Geolocation :  地理位置\r\n\r\n...持续完善中...\r\n***\r\nAndroid-apk 下载地址：\r\n\r\nhttps://pan.baidu.com/s/1boHf5yn\r\n***\r\n##Author:\r\n\r\n*Olex*\r\n\r\nE-mail:3072549654@qq.com\r\n\r\nThanks!\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
