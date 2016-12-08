@@ -9,7 +9,7 @@
 
 1. Image-Picker : 照片上传发布
 
-2.zymedia ： 视频播放
+2. zymedia ： 视频播放
 
 3. Local-Notification: 本地通知推送
 
