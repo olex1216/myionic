@@ -20,7 +20,7 @@
 ***
 Android-apk 下载地址：
 
-https://pan.baidu.com/s/1boHf5yn
+https://pan.baidu.com/s/1pLyGDXh
 ***
 ##Author:
 
