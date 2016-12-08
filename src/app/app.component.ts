@@ -8,6 +8,8 @@ import { LocalNotifications } from 'ionic-native';
 @Component({
   template: `<ion-nav [root]="rootPage"></ion-nav>`
 })
+
+
 export class MyApp {
   rootPage = TabsPage;
 
@@ -31,6 +33,9 @@ export class MyApp {
       }).catch((error) => {
         console.log('Error getting location');
       });
+
+
+       // window.zymedia('video');
 
       //本地消息推送
       LocalNotifications.schedule({

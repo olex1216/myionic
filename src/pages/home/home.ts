@@ -1,8 +1,13 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Slides } from 'ionic-angular';
+
 // import { AddPhoto } from './addphoto';
 // import { ImagePicker } from 'ionic-native';
+
+
+
+
+
 
 @Component({
   selector: 'page-home',
@@ -10,14 +15,20 @@ import { Slides } from 'ionic-angular';
 })
 export class HomePage {
   mySlideOptions;
+video = document.querySelectorAll('video');
+
+
    // photos;
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController,
+   ) {
     this.mySlideOptions = {
         initialSlide: 1,
         loop: true
       };
 
   }
+
+
   addPhoto(){
     // ImagePicker.getPictures(
     //     function(results) {
